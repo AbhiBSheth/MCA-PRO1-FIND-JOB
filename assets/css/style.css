@@ -1515,7 +1515,6 @@ input[type=text], input[type=password] {
   font-size: 12px;
 }
 .button1 {
-  width: 20%;
   padding: 10px 18px;
   background-color: #363637;
   color: white;
@@ -1525,10 +1524,11 @@ input[type=text], input[type=password] {
 
 /* Extra styles for the cancel button */
 .cancelbtn {
-  width: 20%;
   padding: 10px 18px;
   background-color: #363637;
+  margin: 8px 0;
   color: white;
+  cursor: pointer;
 }
 
 /* Center the image and position the close button */
@@ -1547,7 +1547,7 @@ span.psw {
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 997;; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -1555,7 +1555,7 @@ span.psw {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 40px;
+  padding-top: 25px;
 }
 
 /* Modal Content/Box */
