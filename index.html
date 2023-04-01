@@ -625,8 +625,8 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-  <div id="id01" class="modal" class="col-lg-6">
 
+  <div id="id01" class="modal">
     <form class="modal-content animate" action="/action_page.php" method="post">
       <div class="imgcontainer" class="row">
         <span onclick="document.getElementById('id01').style.display='none'" class="close"
@@ -636,15 +636,15 @@
       <div class="imgcontainer" class="row">
         <h3>Login</h3>
       </div>
-      <div class="container"class="col-md-6">
+      <div class="col md-1">
         <label for="uname"><b><i class="bi bi-person-fill"></i> Username</b></label>
         <input type="text" placeholder="Enter Username" name="uname" required>
         <label for="psw"><b><i class="bi bi-key"></i> Password</b></label>
         <input type="password" placeholder="Enter Password" name="psw" required>
         <label>
           <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label><div class="col text-center ">
-        <button class="button1" type="submit">Login</button><span> </span><button
+        </label>
+        <div class="col text-center"><button class="button1" type="submit">Login</button><span> </span><button
             type="button" onclick="document.getElementById('id01').style.display='none'"
             class="cancelbtn">Cancel</button></span></div>
         <div class="row"><span class="psw">Forgot <a href="#">password?</a></span></div>
@@ -675,7 +675,7 @@
         <div class="text-center"><button class="button1" type="submit">Login</button><span> </span><button
             type="button" onclick="document.getElementById('id01').style.display='none'"
             class="cancelbtn">Cancel</button></div>
-        <span class="psw">Alrady User Then <span onclick="Id2()"><a href="#"
+            Alrady User Then <span onclick="Id2()"><a href="#"
               onclick="document.getElementById('id01').style.display='block'">Login</a></span></span>
       </div>
     </form>
