@@ -1,0 +1,9 @@
+Sign Up Quries
+INSERT INTO `login` (`id`, `fnm`, `em`, `un`, `ps`, `uac`) VALUES ('1', 'ABHI SHETH', 'admin@findjob.com', 'admin', 'admin', 'A');
+SELECT * FROM `login` WHERE 1
+
+$cn = mysqli_connect("sql200.ezyro.com", "ezyro_35242370", "12345" , "ezyro_35242370_fj");
+$cn = mysqli_connect("localhost", "root", "", "fj");
+
+$cn = mysqli_connect("sql213.liveblog365.com", "lblog_34535542", "12345" , "lblog_34535542_bz");
+$cn = mysqli_connect("localhost", "root", "", "bz");
